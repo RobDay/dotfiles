@@ -3,8 +3,8 @@
   'tabLength': 4
 'core':
   'themes': [
-    'atom-dark-ui'
-    'atom-dark-syntax'
+    'solarized-dark-ui'
+    'solarized-dark-syntax'
   ]
 'exception-reporting':
   'userId': '4b0b6eec-e547-ddfc-3909-0015c72bc805'
