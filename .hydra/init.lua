@@ -76,7 +76,7 @@ if lastcheckedupdates == nil or lastcheckedupdates <= os.time() - timer.days(7) 
   checkforupdates()
 end
 
-local mash = {alt", "ctrl"}
+local mash = {"alt", "ctrl"}
 local mashshift = {"alt", "shift"}
 
 hotkey.bind(mash, ';', function() ext.grid.snap(window.focusedwindow()) end)
