@@ -76,8 +76,8 @@ if lastcheckedupdates == nil or lastcheckedupdates <= os.time() - timer.days(7) 
   checkforupdates()
 end
 
-local mash = {"cmd", "alt", "ctrl"}
-local mashshift = {"cmd", "alt", "shift"}
+local mash = {alt", "ctrl"}
+local mashshift = {"alt", "shift"}
 
 hotkey.bind(mash, ';', function() ext.grid.snap(window.focusedwindow()) end)
 hotkey.bind(mash, "'", function() fnutils.map(window.visiblewindows(), ext.grid.snap) end)
