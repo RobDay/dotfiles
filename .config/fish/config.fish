@@ -16,3 +16,4 @@ function fish_right_prompt
 end
 
 set -g -x PATH /usr/local/bin /usr/bin /bin /usr/sbin /sbin
+source ~/.config/fish/nvm-wrapper/nvm.fish
