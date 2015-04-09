@@ -1,20 +1,36 @@
-'editor':
-  'fontSize': 16
-  'tabLength': 4
-'core':
-  'themes': [
-    'solarized-dark-ui'
-    'solarized-dark-syntax'
-  ]
-'exception-reporting':
-  'userId': '4b0b6eec-e547-ddfc-3909-0015c72bc805'
-'release-notes':
-  'viewedVersion': '0.95.0'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': '081f28f2c892e23112e4e23f70cb333465299d75'
-'recent-files':
-  'updated': false
-'tree-view':
-  'hideVcsIgnoredFiles': true
+"*":
+  editor:
+    autoIndentOnPaste: true
+    softWrap: true
+    invisibles: {}
+  core:
+    ignoredNames: [
+      "*.pyc"
+      ".keypairs"
+      ".DS_Store"
+      ".git"
+    ]
+    disabledPackages: [
+      "open-in-atom"
+    ]
+    themes: [
+      "solarized-dark-ui"
+      "solarized-dark-syntax"
+    ]
+  "exception-reporting":
+    userId: "4b0b6eec-e547-ddfc-3909-0015c72bc805"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "081f28f2c892e23112e4e23f70cb333465299d75"
+  "recent-files":
+    updated: false
+  "tree-view":
+    hideIgnoredNames: true
+  linter:
+    showInfoMessages: true
+  "atom-lint":
+    showViolationMetadata: false
+  "autocomplete-plus": {}
